@@ -1,7 +1,3 @@
-import React from 'react'
+import BaseLayout from '../components/layouts/BaseLayout'
 
-const App = () => {
-  return <div>Hello</div>
-}
-
-export default App
+export default () => <BaseLayout>Index Page</BaseLayout>
